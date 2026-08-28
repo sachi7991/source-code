@@ -44,3 +44,25 @@
             padding: 10px;
             margin-bottom: 20px;
         }
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Button<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+.buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+
+        button {
+            height: 64px;
+            border-radius: 50%;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
+
+        button:active {
+            opacity: 0.7;
+        }
